@@ -8,7 +8,7 @@ async function helpCommand(sock, chatId, message) {
       ${settings.botName || '❰❴ ⎈ＱＵＥＥＮ ＤＩＶＡ⎈ ❵❱'}  
    ◆Version: *${settings.version || '3.0.0'}*
    ◆Creator: ${settings.botOwner || 'ＭＲ ＳＭＩＬＥ'}
-   ◆Youtube: Neurotech Official 
+   ◆Youtube: MR SMILE MODDERS 
    ◆Commands: 250 plus
    ◆Maintained: Yes
    ◆Status: Online 
