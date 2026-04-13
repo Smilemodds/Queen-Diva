@@ -6,11 +6,11 @@ const path = require('path');
 
 async function githubCommand(sock, chatId, message) {
   try {
-    const res = await fetch('https://api.github.com/repos/Neurotechofficial7/Neurotech-MD');
+    const res = await fetch('https://api.github.com/repos/Smilemodds/Queen-Diva');
     if (!res.ok) throw new Error('Error fetching repository data');
     const json = await res.json();
 
-    let txt = `*乂  Neurotech Official 乂*\n\n`;
+    let txt = `*乂  MR SMILE 乂*\n\n`;
     txt += `✩  *Name* : ${json.name}\n`;
     txt += `✩  *Watchers* : ${json.watchers_count}\n`;
     txt += `✩  *Size* : ${(json.size / 1024).toFixed(2)} MB\n`;
