@@ -143,7 +143,7 @@ const { pmblockerCommand, readState: readPmBlockerState } = require('./commands/
 const settingsCommand = require('./commands/settings');
 const soraCommand = require('./commands/sora');
 const setPrefixCommand = require('./commands/setprefix');
-const supportCommand = require('./commands/support');
+
 
 
 
