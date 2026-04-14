@@ -244,7 +244,6 @@ async function handleMessages(sock, messageUpdate, printLog) {
 
 
 
-.startsWith('.s'):
 
 
 
