@@ -6,9 +6,16 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=32&duration=3000&pause=1000&color=9D00FF&center=true&vCenter=true&width=700&lines=QUEEN+DIVA+BOT;NEXT+LEVEL+AUTOMATION;SIMPLE+⚡+FAST+⚡+EFFICIENT;BUILD.+DEPLOY.+DOMINATE.;POWERED+BY+MR+SMILE" />
 </p>
 
+
 <p align="center">
-  <img src="https://ibb.co/7dzszrkv" width="350"/>
+  <img src="https://i.ibb.co/7dzszrkv/your-image.jpg" 
+       width="350" 
+       style="border-radius:20px; box-shadow:0 0 25px rgba(0,255,255,0.7);"/>
 </p>
+
+
+
+
 
 <div align="center">
   <img src="https://img.shields.io/github/followers/neurotech?style=for-the-badge&label=Followers" alt="Followers"/>
