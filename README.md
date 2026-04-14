@@ -14,6 +14,22 @@
 </p>
 
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Made%20By-MR%20SMILE-blueviolet?style=for-the-badge"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
