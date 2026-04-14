@@ -5,242 +5,225 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-      ${settings.botName || '❰❴ ⎈ＱＵＥＥＮ ＤＩＶＡ⎈ ❵❱'}  
-   ◆Version: *${settings.version || '3.0.0'}*
-   ◆Creator: ${settings.botOwner || 'ＭＲ ＳＭＩＬＥ'}
-   ◆Youtube: MR SMILE MODDERS 
-   ◆Commands: 250 plus
-   ◆Maintained: Yes
-   ◆Status: Online 
-   ◆Mode: Public 
-   
+║     ${settings.botName || '❰❴ ⎈ＱＵＥＥＮ ＤＩＶＡ⎈ ❵❱'}  
+║   ◆Version: *${settings.version || '3.0.0'}*
+║   ◆Creator: ${settings.botOwner || 'ＭＲ ＳＭＩＬＥ'}
+║   ◆Youtube: Mr Smile Modders
+║   ◆Commands: 250 plus
+║   ◆Maintained: Yes
+║   ◆Status: Online 
+║   ◆Mode: Public   
 ╚═══════════════════╝
 
-*𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦:*
+╔═══════════════════╗
+   *𝗚𝗘𝗡𝗘𝗥𝗔𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.menu
+║ ✦.ping
+║ ✦.alive
+║ ✦.tts 
+║ ✦.owner
+║ ✦.joke
+║ ✦.quote
+║ ✦.fact
+║ ✦.weather 
+║ ✦.news
+║ ✦.attp 
+║ ✦.lyrics 
+║ ✦.groupinfo
+║ ✦.admins 
+║ ✦.vv
+║ ✦.translate 
+║ ✦.screenshot 
+║ ✦.jid
+║ ✦.url
+║ ✦.setprefix 
+╚═══════════════════╝ 
 
-╔══════════════════════════════╗
-║        『 𝗚𝗘𝗡𝗘𝗥𝗔𝗟 』        ║
-╠══════════════════════════════╣
-║ ▸ .menu
-║ ▸ .ping
-║ ▸ .alive
-║ ▸ .tts 
-║ ▸ .owner
-║ ▸ .joke
-║ ▸ .quote
-║ ▸ .fact
-║ ▸ .weather 
-║ ▸ .news
-║ ▸ .attp 
-║ ▸ .lyrics 
-║ ▸ .groupinfo
-║ ▸ .admins 
-║ ▸ .vv
-║ ▸ .translate 
-║ ▸ .screenshot 
-║ ▸ .jid
-║ ▸ .url
-║ ▸ .setprefix 
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗔𝗗𝗠𝗜𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.ban 
+║ ✦.promote 
+║ ✦.demote 
+║ ✦.mute 
+║ ✦.unmute
+║ ✦.delete 
+║ ✦.kick 
+║ ✦.warnings 
+║ ✦.warn 
+║ ✦.antilink
+║ ✦.antibadword
+║ ✦.clear
+║ ✦.tag 
+║ ✦.tagall
+║ ✦.tagnotadmin
+║ ✦.hidetag 
+║ ✦.chatbot
+║ ✦.resetlink
+║ ✦.antitag 
+║ ✦.welcome 
+║ ✦.goodbye 
+║ ✦.setgdesc 
+║ ✦.setgname 
+║ ✦.setgpp 
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║         『 𝗔𝗗𝗠𝗜𝗡 』         ║
-╠══════════════════════════════╣
-║ ▸ .ban 
-║ ▸ .promote 
-║ ▸ .demote 
-║ ▸ .mute 
-║ ▸ .unmute
-║ ▸ .delete 
-║ ▸ .kick 
-║ ▸ .warnings 
-║ ▸ .warn 
-║ ▸ .antilink
-║ ▸ .antibadword
-║ ▸ .clear
-║ ▸ .tag 
-║ ▸ .tagall
-║ ▸ .tagnotadmin
-║ ▸ .hidetag 
-║ ▸ .chatbot
-║ ▸ .resetlink
-║ ▸ .antitag 
-║ ▸ .welcome 
-║ ▸ .goodbye 
-║ ▸ .setgdesc 
-║ ▸ .setgname 
-║ ▸ .setgpp 
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗢𝗪𝗡𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.mode 
+║ ✦.clearsession
+║ ✦.antidelete
+║ ✦.cleartmp
+║ ✦.update
+║ ✦.settings
+║ ✦.setpp 
+║ ✦.autoreact 
+║ ✦.autostatus 
+║ ✦.autostatus react 
+║ ✦.autotyping 
+║ ✦.autoread 
+║ ✦.anticall 
+║ ✦.pmblocker 
+║ ✦.pmblocker 
+║ ✦.setmention 
+║ ✦.mention 
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║        『 𝗢𝗪𝗡𝗘𝗥 』        ║
-╠══════════════════════════════╣
-║ ▸ .mode 
-║ ▸ .clearsession
-║ ▸ .antidelete
-║ ▸ .cleartmp
-║ ▸ .update
-║ ▸ .settings
-║ ▸ .setpp 
-║ ▸ .autoreact 
-║ ▸ .autostatus 
-║ ▸ .autostatus react 
-║ ▸ .autotyping 
-║ ▸ .autoread 
-║ ▸ .anticall 
-║ ▸ .pmblocker 
-║ ▸ .pmblocker 
-║ ▸ .setmention 
-║ ▸ .mention 
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗜𝗠𝗔𝗚𝗘 & 𝗦𝗧𝗜𝗖𝗞𝗘𝗥*:
+║ ✦.blur 
+║ ✦.simage 
+║ ✦.sticker 
+║ ✦.removebg
+║ ✦.remini
+║ ✦.crop 
+║ ✦.tgsticker 
+║ ✦.meme
+║ ✦.take  
+║ ✦.emojimix 
+║ ✦.igs 
+║ ✦.igsc 
+╚═══════════════════╝  
 
-╔══════════════════════════════╗
-║   『 𝗜𝗠𝗔𝗚𝗘 & 𝗦𝗧𝗜𝗖𝗞𝗘𝗥 』   ║
-╠══════════════════════════════╣
-║ ▸ .blur 
-║ ▸ .simage 
-║ ▸ .sticker 
-║ ▸ .removebg
-║ ▸ .remini
-║ ▸ .crop 
-║ ▸ .tgsticker 
-║ ▸ .meme
-║ ▸ .take  
-║ ▸ .emojimix 
-║ ▸ .igs 
-║ ▸ .igsc 
-╚══════════════════════════════╝  
+╔═══════════════════╗
+   *𝗣𝗜𝗘𝗦*:
+║ ✦.pies 
+║ ✦.china 
+║ ✦.indonesia 
+║ ✦.japan 
+║ ✦.korea 
+║ ✦.hijab
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║          『 𝗣𝗜𝗘𝗦 』          ║
-╠══════════════════════════════╣
-║ ▸ .pies 
-║ ▸ .china 
-║ ▸ .indonesia 
-║ ▸ .japan 
-║ ▸ .korea 
-║ ▸ .hijab
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗚𝗔𝗠𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.tictactoe 
+║ ✦.hangman
+║ ✦.guess 
+║ ✦.trivia
+║ ✦.answer 
+║ ✦.truth
+║ ✦.dare
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║        『 𝗚𝗔𝗠𝗘𝗦 』        ║
-╠══════════════════════════════╣
-║ ▸ .tictactoe 
-║ ▸ .hangman
-║ ▸ .guess 
-║ ▸ .trivia
-║ ▸ .answer 
-║ ▸ .truth
-║ ▸ .dare
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗔𝗜 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.gpt 
+║ ✦.gemini 
+║ ✦.imagine 
+║ ✦.flux 
+║ ✦.sora 
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║          『 𝗔𝗜 』          ║
-╠══════════════════════════════╣
-║ ▸ .gpt 
-║ ▸ .gemini 
-║ ▸ .imagine 
-║ ▸ .flux 
-║ ▸ .sora 
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗙𝗨𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.compliment 
+║ ✦.insult 
+║ ✦.flirt 
+║ ✦.shayari
+║ ✦.goodnight
+║ ✦.roseday
+║ ✦.character 
+║ ✦.wasted 
+║ ✦.ship 
+║ ✦.simp 
+║ ✦.stupid 
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║         『 𝗙𝗨𝗡 』         ║
-╠══════════════════════════════╣
-║ ▸ .compliment 
-║ ▸ .insult 
-║ ▸ .flirt 
-║ ▸ .shayari
-║ ▸ .goodnight
-║ ▸ .roseday
-║ ▸ .character 
-║ ▸ .wasted 
-║ ▸ .ship 
-║ ▸ .simp 
-║ ▸ .stupid 
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗧𝗘𝗫𝗧 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.metallic 
+║ ✦.ice 
+║ ✦.snow 
+║ ✦.impressive 
+║ ✦.matrix 
+║ ✦.light 
+║ ✦.neon 
+║ ✦.devil 
+║ ✦.purple 
+║ ✦.thunder 
+║ ✦.leaves 
+║ ✦.1917 
+║ ✦.arena 
+║ ✦.hacker 
+║ ✦.sand 
+║ ✦.blackpink 
+║ ✦.glitch 
+║ ✦.fire 
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║        『 𝗧𝗘𝗫𝗧 』        ║
-╠══════════════════════════════╣
-║ ▸ .metallic 
-║ ▸ .ice 
-║ ▸ .snow 
-║ ▸ .impressive 
-║ ▸ .matrix 
-║ ▸ .light 
-║ ▸ .neon 
-║ ▸ .devil 
-║ ▸ .purple 
-║ ▸ .thunder 
-║ ▸ .leaves 
-║ ▸ .1917 
-║ ▸ .arena 
-║ ▸ .hacker 
-║ ▸ .sand 
-║ ▸ .blackpink 
-║ ▸ .glitch 
-║ ▸ .fire 
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.play 
+║ ✦.song 
+║ ✦.spotify 
+║ ✦.instagra
+║ ✦.facebook 
+║ ✦.tiktok 
+║ ✦.video 
+║ ✦.ytmp4 
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║      『 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 』      ║
-╠══════════════════════════════╣
-║ ▸ .play 
-║ ▸ .song 
-║ ▸ .spotify 
-║ ▸ .instagra
-║ ▸ .facebook 
-║ ▸ .tiktok 
-║ ▸ .video 
-║ ▸ .ytmp4 
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗠𝗜𝗦𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.heart
+║ ✦.horny
+║ ✦.circle
+║ ✦.lgbt
+║ ✦.lolice
+║ ✦.its-so-stupid
+║ ✦.namecard 
+║ ✦.oogway
+║ ✦.tweet
+║ ✦.ytcomment 
+║ ✦.comrade 
+║ ✦.gay 
+║ ✦.glass 
+║ ✦.jail 
+║ ✦.passed 
+║ ✦.triggered
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║         『 𝗠𝗜𝗦𝗖 』         ║
-╠══════════════════════════════╣
-║ ▸ .heart
-║ ▸ .horny
-║ ▸ .circle
-║ ▸ .lgbt
-║ ▸ .lolice
-║ ▸ .its-so-stupid
-║ ▸ .namecard 
-║ ▸ .oogway
-║ ▸ .tweet
-║ ▸ .ytcomment 
-║ ▸ .comrade 
-║ ▸ .gay 
-║ ▸ .glass 
-║ ▸ .jail 
-║ ▸ .passed 
-║ ▸ .triggered
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗔𝗡𝗜𝗠𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*:
+║ ✦.nom 
+║ ✦.poke 
+║ ✦.cry 
+║ ✦.kiss 
+║ ✦.pat 
+║ ✦.hug 
+║ ✦.wink 
+║ ✦.facepalm 
+╚═══════════════════╝
 
-╔══════════════════════════════╗
-║        『 𝗔𝗡𝗜𝗠𝗘 』        ║
-╠══════════════════════════════╣
-║ ▸ .nom 
-║ ▸ .poke 
-║ ▸ .cry 
-║ ▸ .kiss 
-║ ▸ .pat 
-║ ▸ .hug 
-║ ▸ .wink 
-║ ▸ .facepalm 
-╚══════════════════════════════╝
+╔═══════════════════╗
+   *𝗚𝗜𝗧𝗛𝗨𝗕 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦:*
+║ ✦.git
+║ ✦.github
+║ ✦.sc
+║ ✦.script
+║ ✦.repo
+╚═══════════════════╝`
 
-╔══════════════════════════════╗
-║       『 𝗚𝗜𝗧𝗛𝗨𝗕 』       ║
-╠══════════════════════════════╣
-║ ▸ .git
-║ ▸ .github
-║ ▸ .sc
-║ ▸ .script
-║ ▸ .repo
-╚══════════════════════════════╝
-
-✨ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 ＭＲ ＳＭＩＬＥ 🧑‍💻:`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
