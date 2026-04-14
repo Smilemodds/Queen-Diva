@@ -24,33 +24,13 @@
 <h2 align="center">🚀 DEPLOY QUEEN DIVA BOT</h2>
 
 <p align="center">
-
-<!-- STEP 1 -->
 <a href="https://bot-hosting.net/?aff=1331364860293943392">
-  <img src="https://img.shields.io/badge/STEP%201-DEPLOY%20ON%20PANEL-9D00FF?style=for-the-badge&logo=server&logoColor=white"/>
-</a>
-
-<br>
-<span>⚡ Fast & Easy Setup (Recommended)</span>
-
-<br><br>
-
-<!-- STEP 2 -->
+  <img src="https://img.shields.io/badge/STEP%201-PANEL-9D00FF?style=for-the-badge&logo=server&logoColor=white"/>
+</a><br>
 <a href="https://client.petrosky.io/aff.php?aff=394">
-  <img src="https://img.shields.io/badge/STEP%202-DEPLOY%20ON%20VPS-FF00FF?style=for-the-badge&logo=linux&logoColor=white"/>
-</a>
-
-<br>
-<span>🔥 Full Control & Performance</span>
-
-<br><br>
-
-<!-- STEP 3 -->
+  <img src="https://img.shields.io/badge/STEP%202-VPS-FF00FF?style=for-the-badge&logo=linux&logoColor=white"/>
+</a><br>
 <a href="https://dashboard.katabump.com/auth/login#6b26b2">
-  <img src="https://img.shields.io/badge/STEP%203-DEPLOY%20ON%20KATABUMP-8A00FF?style=for-the-badge&logo=rocket&logoColor=white"/>
+  <img src="https://img.shields.io/badge/STEP%203-KATABUMP-8A00FF?style=for-the-badge&logo=rocket&logoColor=white"/>
 </a>
-
-<br>
-<span>🚀 One-Click Deployment</span>
-
 </p>
