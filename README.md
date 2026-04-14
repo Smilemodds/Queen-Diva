@@ -37,15 +37,18 @@
 
 
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Smilemodds&label=Profile%20Views&color=8A00FF&style=for-the-badge"/>
-</p>
-
+<h2 align="center">💬 CONTACT & COMMUNITY</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Smilemodds&show_icons=true&theme=tokyonight"/>
+
+<a href="https://wa.me/97125567072">
+  <img src="https://img.shields.io/badge/💬_Contact_on_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+
+<br><br>
+
+<a href="https://whatsapp.com/channel/0029Vb794NKBadmdwkPN6i0B">
+  <img src="https://img.shields.io/badge/📢_Join_WhatsApp_Channel-8A00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+
 </p>
-
-
-
-
