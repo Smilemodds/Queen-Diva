@@ -21,19 +21,22 @@
 </p>
 
 
-
 <p align="center">
 
 <a href="https://bot-hosting.net/?aff=1331364860293943392">
-  <img src="https://img.shields.io/badge/⚡_PANEL-QUEEN_DIVA-9D00FF?style=for-the-badge&logo=server&logoColor=white"/>
+  <img src="https://img.shields.io/badge/1️⃣_Deploy_Panel-QUEEN_DIVA-9D00FF?style=for-the-badge&logo=server&logoColor=white"/>
 </a>
+
+<br><br>
 
 <a href="https://client.petrosky.io/aff.php?aff=394">
-  <img src="https://img.shields.io/badge/🔥_VPS-FAST_SETUP-FF00FF?style=for-the-badge&logo=linux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/2️⃣_Deploy_VPS-FAST_SETUP-FF00FF?style=for-the-badge&logo=linux&logoColor=white"/>
 </a>
 
+<br><br>
+
 <a href="https://dashboard.katabump.com/auth/login#6b26b2">
-  <img src="https://img.shields.io/badge/🚀_KATABUMP-ONE_CLICK-8A00FF?style=for-the-badge&logo=rocket&logoColor=white"/>
+  <img src="https://img.shields.io/badge/3️⃣_Deploy_Katabump-ONE_CLICK-8A00FF?style=for-the-badge&logo=rocket&logoColor=white"/>
 </a>
 
 </p>
