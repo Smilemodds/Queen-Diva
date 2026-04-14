@@ -34,3 +34,18 @@
   <img src="https://img.shields.io/badge/STEP%203-KATABUMP-8A00FF?style=for-the-badge&logo=rocket&logoColor=white"/>
 </a>
 </p>
+
+
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Smilemodds&label=Profile%20Views&color=8A00FF&style=for-the-badge"/>
+</p>
+
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Smilemodds&show_icons=true&theme=tokyonight"/>
+</p>
+
+
+
+
