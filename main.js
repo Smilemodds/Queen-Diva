@@ -244,19 +244,8 @@ async function handleMessages(sock, messageUpdate, printLog) {
 
 
 
-case userMessage.startsWith('.s'):
-{
-    const query = userMessage.split(' ').slice(1).join(' ');
+.startsWith('.s'):
 
-    const response = await axios.get(`https://api.example.com/script?q=${query}`);
-
-    const result = response.data;
-
-    await sock.sendMessage(chatId, {
-        text: `📜 Script Result:\n\n${result.script}`
-    }, { quoted: message });
-}
-break;
 
 
 
