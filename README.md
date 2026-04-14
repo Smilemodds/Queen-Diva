@@ -6,11 +6,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=32&duration=3000&pause=1000&color=9D00FF&center=true&vCenter=true&width=700&lines=QUEEN+DIVA+BOT;NEXT+LEVEL+AUTOMATION;SIMPLE+⚡+FAST+⚡+EFFICIENT;BUILD.+DEPLOY.+DOMINATE.;POWERED+BY+MR+SMILE" />
 </p>
 
-<div align="center"> 
-  <a href="https://www.youtube.com/@neurotech-t3k"> 
-    <img src="https://github.com/Neurotechofficial7/Neurotech-MD/blob/main/assets/bot_image.jpg" alt="Neurotech MD" height="300"> 
-  </a> 
-</div>
+<p align="center">
+  <img src="https://i.ibb.co/wZBzkb86/your-image.jpg" width="350"/>
+</p>
 
 <div align="center">
   <img src="https://img.shields.io/github/followers/neurotech?style=for-the-badge&label=Followers" alt="Followers"/>
