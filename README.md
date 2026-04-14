@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=32&duration=3000&pause=1000&color=9D00FF&center=true&vCenter=true&width=700&lines=QUEEN+DIVA+BOT;NEXT+LEVEL+AUTOMATION;SIMPLE+⚡+FAST+⚡+EFFICIENT;BUILD.+DEPLOY.+DOMINATE.;POWERED+BY+MR+SMILE" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=34&duration=2500&pause=800&color=FF00FF&center=true&vCenter=true&width=750&lines=🔥+QUEEN+DIVA+BOT+🔥;💜+NEXT+LEVEL+AUTOMATION;⚡+FAST+%7C+SMART+%7C+POWERFUL;🚀+BUILD.+DEPLOY.+DOMINATE.;👑+POWERED+BY+MR+SMILE" />
 </p>
 
 
@@ -17,12 +17,7 @@
 
 
 
-<div align="center">
-  <img src="https://img.shields.io/github/followers/neurotech?style=for-the-badge&label=Followers" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/Neurotechofficial7/Neurotech-MD?style=for-the-badge&label=Stars" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Neurotechofficial7/Neurotech-MD?style=for-the-badge&label=Forks" alt="Forks"/>
-  <img src="https://img.shields.io/github/watchers/Neurotechofficial7/Neurotech-MD?style=for-the-badge&label=Watchers" alt="Watchers"/>
-</div>
+
 
 ---
 
