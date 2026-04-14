@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/wZBzkb86/your-image.jpg" width="650"/>
+  <img src="[https://i.ibb.co/wZBzkb86/your-image.jpg](https://ibb.co/7dzszrkv)" width="650"/>
 </p>
 
 <div align="center">
