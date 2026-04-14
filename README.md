@@ -1,12 +1,10 @@
-# 🤖 NEUROTECH-MD
+# QUEEN DIVA WHATSAPP BOT 🔥
 
-This is a WhatsApp bot built using the Baileys library for group management, including features like tagging all members, antilink, and many more. It's designed to help admins efficiently manage WhatsApp groups.
 
-<div align="center"> 
-  <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Neurotech-MD;Multi+Device+Whatsapp+Bot;Coded+By+Allamano" alt="Typing SVG" />
-  </a> 
-</div> 
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=32&duration=3000&pause=1000&color=9D00FF&center=true&vCenter=true&width=700&lines=QUEEN+DIVA+BOT;NEXT+LEVEL+AUTOMATION;SIMPLE+⚡+FAST+⚡+EFFICIENT;BUILD.+DEPLOY.+DOMINATE.;POWERED+BY+MR+SMILE" />
+</p>
 
 <div align="center"> 
   <a href="https://www.youtube.com/@neurotech-t3k"> 
