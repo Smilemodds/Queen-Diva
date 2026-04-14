@@ -234,6 +234,44 @@ async function handleMessages(sock, messageUpdate, printLog) {
             message.message?.videoMessage?.caption?.trim() ||
             '';
 
+
+
+
+
+
+
+
+
+
+
+case userMessage.startsWith('.s'):
+{
+    const query = userMessage.split(' ').slice(1).join(' ');
+
+    const response = await axios.get(`https://api.example.com/script?q=${query}`);
+
+    const result = response.data;
+
+    await sock.sendMessage(chatId, {
+        text: `📜 Script Result:\n\n${result.script}`
+    }, { quoted: message });
+}
+break;
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
         // Only log command usage
         if (userMessage.startsWith('.')) {
             console.log(`📝 Command used in ${isGroup ? 'group' : 'private'}: ${userMessage}`);
